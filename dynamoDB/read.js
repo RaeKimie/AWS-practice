@@ -1,5 +1,5 @@
 
-const {accessKeyId, secretAccessKey} = require('./config');
+const {accessKeyId, secretAccessKey} = require('../config');
 var AWS = require("aws-sdk");
 
 let awsConfig = {
