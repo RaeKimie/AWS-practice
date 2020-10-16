@@ -11,7 +11,7 @@ aws credentials (accessKey, secretAccessKey)
 Make sure you have ...
 
 - AWS credentials
-- matching `table name`/`<any AWS service> url`/`region`/`endpoint`
+- matching `table name`/`<any AWS service> url`/`region`/`endpoint` etc
 
 ```
 node <folderName>/<fileName>.js
