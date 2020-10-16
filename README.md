@@ -8,16 +8,21 @@ aws-sdk
 aws credentials (accessKey, secretAccessKey)
 ```
 
+Make sure you have ...
 
+- AWS credentials
+- matching `table name`/`<any AWS service> url`/`region`/`endpoint`
+
+```
+node <folderName>/<fileName>.js
+```
 
 ### DynamoDB
 
-need to check...
+[aws.dynamodb.documentclient](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Config.html#update-property)
 
-* credentials
-* match names and types of tables, priorities 
+[create, read, update, and delete an item](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.NodeJs.03.html)
 
-```
-node dynamoDB/<fileName>.js
-```
+### SQS
 
+[class List for SQS](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html#sendMessage-property)
