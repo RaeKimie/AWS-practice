@@ -1,18 +1,14 @@
-
-const {accessKeyId, secretAccessKey} = require('../config');
-var AWS = require("aws-sdk");
+const AWS = require("aws-sdk");
 
 let awsConfig = {
     "region": "eu-west-2",
     "endpoint": "http://dynamodb.eu-west-2.amazonaws.com",
-    accessKeyId,
-    secretAccessKey 
 };
 AWS.config.update(awsConfig);
 
 let docClient = new AWS.DynamoDB.DocumentClient();
 let getSingleDataByKey = function () {
-    var params = {
+    const params = {
         TableName: "demo-dynamo",
         Key: {
             "user_id": "1"
