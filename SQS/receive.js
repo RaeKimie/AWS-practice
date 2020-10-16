@@ -30,7 +30,8 @@ const getMessage = function () {
 //     ResponseMetadata: { RequestId: '75b12f6c-a606-5a39-a80b-776f0b1eda1f' }
 //   }
 
-//somehow first 3 times when you call this it shows the correct data then shows ResponseMetadata
+//somehow first 3 times when you call this it shows the correct data then shows ResponseMetadata 
+//looks like it's related to MaxNumberOfMessages
 getMessage();
 
 //expected output on success 
