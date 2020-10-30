@@ -1,6 +1,7 @@
 const AWS = require("aws-sdk");
 const {senderEmail, email} = require('../config');
 //only verified email can be used here
+//all new accounts get placed in ses sandbox
 let awsConfig = {
     "region": "eu-west-2",
 };

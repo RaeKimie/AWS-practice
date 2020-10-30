@@ -30,5 +30,9 @@ node <folderName>/<fileName>.js
 ### SES
 
 [AWS CLI Command Reference for create-email-template](https://docs.aws.amazon.com/cli/latest/reference/pinpoint/create-email-template.html)
+
 [Sending personalized email using the Amazon SES API](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-personalized-email-api.html)
+
 [error codes for ses](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/using-ses-api-error-codes.html)
+
+[moving out of the SES sandbox](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html)
