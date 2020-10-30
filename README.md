@@ -26,3 +26,9 @@ node <folderName>/<fileName>.js
 ### SQS
 
 [class List for SQS](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html#sendMessage-property)
+
+### SES
+
+[AWS CLI Command Reference for create-email-template](https://docs.aws.amazon.com/cli/latest/reference/pinpoint/create-email-template.html)
+[Sending personalized email using the Amazon SES API](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-personalized-email-api.html)
+[error codes for ses](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/using-ses-api-error-codes.html)

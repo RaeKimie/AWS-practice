@@ -1,0 +1,13 @@
+{
+    "Template": {
+      "TemplateName": "emailTemplate-Demo",
+      "SubjectPart": "Hi, {{userName}}!",
+      "HtmlPart": "<html>\r\n    <head>\r\n        <title>Test Title<\/title>\r\n    <\/head>\r\n    <body>\r\n            <h1>Hi {{userName}}! <\/h1>\r\n            <p>This is my test for SES! yay! your favourite animal is {{animal}}<\/p>\r\n    <\/body>\r\n<\/html>",
+      "TextPart": "Dear {{userName}},\r\nYour favorite animal is test email."
+    }
+}
+
+//run this after removing comment
+//aws ses create-template --cli-input-json file://email-template.json 
+//aws ses update-template --cli-input-json file://email-template.json 
+
